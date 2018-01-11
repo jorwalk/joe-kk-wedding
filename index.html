@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="author" content="" />
+	<meta name="description" content="" />
+	<meta name="keywords"  content="" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/kk-joe/css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/kk-joe/css/style.css" />
+	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<video id="myVideo" loop data-autoplay>
+			<source src="mov/scene.mp4" type="video/mp4">
+			<source src="mov/flowers.webm" type="video/webm">
+		</video>
+		<div class="layer date">
+			<p>Sunday August 26th 2018</p>
+		</div>
+		<div class="layer desc">
+			<p>Please save the date for the midmorning wedding of<br/> Kristin Kelsey and Joseph Sadoski</p>
+			<p>Twin Lake Villa<br/>New London<br/>New Hampshire</p>
+			<span class="lnr lnr-arrow-down"></span>
+		</div>
+		
+	</div>
+	<div class="section" id="section1">
+	    <p>Accommodations</p>
+		<p class='text'>All accommodations for guests are available at Twin Lake Villa. This is where the wedding will be held and festivities abound! Please call Laurie or Tanner at TLV to let them know how many days you would like to stay.
+		<p>tel. <a class="tel" href="tel:603 526 6460">603 526 6460</a></p>
+		<p>You are welcome to arrive anytime after 10:00am on Saturday the 25th; although you can’t check in until 3:00pm, you can drop your bags and are welcome to come and golf, swim and sail with us! Wedding guests will be the only guests at TLV until Wednesday August 29th. If you can stay, please do!</p>
+
+		<p>The cost of accommodations is $100 person, per night. Breakfast, lunch and dinner will be provided.</p>
+		<p class="underline">Twin Lake Villa only accepts cash or check.</p>
+		<span class="lnr lnr-arrow-down"></span>
+
+	</div>
+	<div class="section" id="section2">
+		<p>Events</p>
+		<p>For those joining us from out of town, there will be a cocktail hour and welcome picnic on the evening of Saturday August 25th at Stepping Stones.</p>
+		<p>Dress is casual.</p>
+		<p>Our hope is that friends and family will be able to join us for this weekend. TLV is a lovely place. It has a 9 hole golf course, boat house with canoes and sailboats and kayaks, tennis courts, hiking trails, and lots of colorful rocking chairs.</p>
+		<p>Please come to relax and spend time with us and all our closest friends and family.</p>
+		<span class="lnr lnr-arrow-down"></span>
+	</div>
+	<div class="section" id="section3">
+		<p>Contact</p>
+		<p>Please feel free to email either of us with questions.</p>
+		<table>
+			<tr>
+				<td>
+					<p>KK</p>
+					<p><a class="email" href="mailto:kristin.kelsey@gmail.com" target="_top">kristin.kelsey@gmail.com</a></p>
+				</td>
+				<td>
+					<p>Joe</p>
+					<p><a class="email" href="mailto:joseph.sadoski@gmail.com" target="_top">joseph.sadoski@gmail.com</a></p>
+				</td>
+			</tr>
+		</table>
+		<p class="travel">Travel</p>
+		<p>We recommend flying into Manchester or Boston if you are traveling from outside of New England.</p>
+		<span class="lnr lnr-arrow-down"></span>
+	</div>
+	<div class="section" id="section4">
+		<img src="img/map.jpg" alt="map" id="map" />
+	</div>
+	<div class="section" id="section5">
+		<div class="layer">
+			<span class="lnr lnr-heart"></span>
+		</div>
+	</div>
+</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: true,
+				sectionsColor: ['#37392c', '#37392c', '#37392c', '#37392c', '#37392c', '#37392c'],
+				css3: true,
+				continuousVertical: true
+			});
+		});
+	</script>
+
+</body>
+</html>
