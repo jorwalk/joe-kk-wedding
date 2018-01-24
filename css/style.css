@@ -18,7 +18,8 @@
   overflow: hidden;
 }
 
-
+/* Layer Icon centering
+	* --------------------------------------- */
 .layer.icon {
   top: 90%;
 }
