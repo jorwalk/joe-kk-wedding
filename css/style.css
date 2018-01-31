@@ -48,7 +48,6 @@ p {
 
 
 #myVideo {
-    position: relative;
     height: 70%;
     z-index: 3;
 }
