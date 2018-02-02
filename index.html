@@ -9,9 +9,8 @@
 
 
 	<link rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/kk-joe/css/jquery.fullPage.css" />
-	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+	<link rel="stylesheet" type="text/css" href="http://kk-joe.s3-website-us-east-1.amazonaws.com/css/style.css" />
 	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-
 </head>
 <body>
 
@@ -21,9 +20,8 @@
 		<div class="layer icon">
 			<span class="lnr lnr-arrow-down"></span>
 		</div>
-		<video id="myVideo" loop data-autoplay>
-			<source src="mov/output_1.mp4" type="video/mp4">
-			<source src="mov/flowers.webm" type="video/webm">
+		<video id="myVideo" controls loop autoplay>
+			<source src="http://kk-joe.s3-website-us-east-1.amazonaws.com/mov/output_1.mp4" type="video/mp4">
 		</video>
 		<div class="date">
 			<p>Sunday August 26th 2018</p>
@@ -47,14 +45,14 @@
 	<div class="section">
 		<div id="accommodations">
 			<p>Accommodations</p>
-			<p>All accommodations for guests are available at Twin Lake Villa. <br/> This is where the wedding will be held and festivities abound!</p>
+			<p>All accommodations for guests are available at <a class="link" href="http://twinlakevillage.com/" target="_blank">Twin Lake Villa.</a> <br/> This is where the wedding will be held and festivities abound!</p>
 
 			<p>You are welcome to arrive anytime after 10:00am on Saturday the 25th; <br/> although you can’t check in until 3:00pm, you can drop your bags and are welcome to come and golf, swim and sail with us!<br/> Wedding guests will be the only guests at TLV until Wednesday August 29th.<br/> If you can stay, please do!</p>
 
 			<p>The cost of accommodations is $100 person, per night.<br/>Breakfast, lunch and dinner will be provided.</p>
 			<p>Please call Laurie or Tanner at TLV to let them know how many days you would like to stay.</p>
 			<p>tel. <a class="tel" href="tel:603 526 6460">603 526 6460</a></p>
-			<p>Twin Lake Villa only accepts payment by cash or check.</p>
+			<p style="text-decoration: underline;">Twin Lake Villa only accepts payment by cash or check.</p>
 		</div>
 
 		<div class="layer icon">
@@ -66,7 +64,7 @@
 	<div class="section">
 		<div>
 			<p>BBQ</p>
-			<p>For those joining us from afar, there will be a cocktail hour and welcome BBQ on the<br/> evening of Saturday August 25th at Stepping Stones.</p>
+			<p>For those joining us from afar, there will be a cocktail hour and welcome BBQ on the<br/> evening of Saturday August 25th at <a class="link" href="https://goo.gl/maps/fxxkmrDxk962" target="_blank">Stepping Stones.</a></p>
 		</div>
 		<div class="layer icon">
 			<span class="lnr lnr-arrow-down"></span>
@@ -76,7 +74,7 @@
 	<div class="section">
 		<p>Travel</p>
 		<p>We recommend flying into Manchester or Boston if you<br/> are traveling from outside of New England.</p>
-		<img src="img/map.jpg" alt="map" id="map" />
+		<img src="http://kk-joe.s3-website-us-east-1.amazonaws.com/img/map.jpg" alt="map" id="map" />
 		<div class="layer icon">
 			<span class="lnr lnr-arrow-down"></span>
 		</div>
@@ -115,6 +113,11 @@
 				css3: true,
 				continuousVertical: true
 			});
+
+			 setTimeout(function(){
+			     document.getElementById('myVideo').play();
+			 },1000)
+			
 		});
 	</script>
 

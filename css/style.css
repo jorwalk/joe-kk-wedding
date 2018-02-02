@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Adobe Garamond Pro';
-    src: url('../fonts/AGaramondPro-Italic.eot');
-    src: url('../fonts/AGaramondPro-Italic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/AGaramondPro-Italic.woff2') format('woff2'),
-        url('../fonts/AGaramondPro-Italic.woff') format('woff'),
-        url('../fonts/AGaramondPro-Italic.ttf') format('truetype'),
-        url('../fonts/AGaramondPro-Italic.svg#AGaramondPro-Italic') format('svg');
+    src: url('http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-Italic.eot');
+    src: url('http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-Italic.woff2') format('woff2'),
+        url('http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-Italic.woff') format('woff'),
+        url('http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-Italic.ttf') format('truetype'),
+        url('http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-Italic.svg#AGaramondPro-Italic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
@@ -62,6 +62,10 @@ p {
 .email {
 	color: white;
 	text-decoration: none;
+}
+
+a.link {
+	color: white;
 }
 
 table {
