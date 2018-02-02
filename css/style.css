@@ -10,6 +10,20 @@
     font-style: italic;
 }
 
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "AGaramondPro-BoldItalic";
+  src: url("http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-BoldItalic.eot"); /* IE9 Compat Modes */
+  src: url("http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-BoldItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-BoldItalic.otf") format("opentype"), /* Open Type Font */
+    url("http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-BoldItalic.svg") format("svg"), /* Legacy iOS */
+    url("http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-BoldItalic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-BoldItalic.woff") format("woff"), /* Modern Browsers */
+    url("http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-BoldItalic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Centered texts in each section
 	* --------------------------------------- */
 
@@ -52,6 +66,10 @@ p {
     font-variant: normal;
     font-weight: 400;
     line-height: 24px;
+}
+
+p.bold {
+	font-family: "AGaramondPro-BoldItalic";
 }
 
 .tel {
@@ -106,3 +124,24 @@ table {
 video::-webkit-media-controls {
   display:none !important;
 }
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  p { 
+  	font-size: 24px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  p { 
+  	font-size: 24px;
+  }
+}
+
+
