@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Adobe Garamond Pro';
-    src: url('http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-Italic.eot');
-    src: url('http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-Italic.eot?#iefix') format('embedded-opentype'),
-        url('http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-Italic.woff2') format('woff2'),
-        url('http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-Italic.woff') format('woff'),
-        url('http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-Italic.ttf') format('truetype'),
-        url('http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-Italic.svg#AGaramondPro-Italic') format('svg');
+    src: url('http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.eot');
+    src: url('http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.woff2') format('woff2'),
+        url('http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.woff') format('woff'),
+        url('http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.ttf') format('truetype'),
+        url('http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.svg#AGaramondPro-Italic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
@@ -13,13 +13,13 @@
 /* font converted using font-converter.net. thank you! */
 @font-face {
   font-family: "AGaramondPro-BoldItalic";
-  src: url("http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-BoldItalic.eot"); /* IE9 Compat Modes */
-  src: url("http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-BoldItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-BoldItalic.otf") format("opentype"), /* Open Type Font */
-    url("http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-BoldItalic.svg") format("svg"), /* Legacy iOS */
-    url("http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-BoldItalic.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-BoldItalic.woff") format("woff"), /* Modern Browsers */
-    url("http://kk-joe.s3-website-us-east-1.amazonaws.com/fonts/AGaramondPro-BoldItalic.woff2") format("woff2"); /* Modern Browsers */
+  src: url("http://sturgeonmoon2018.com/fonts/AGaramondPro-BoldItalic.eot"); /* IE9 Compat Modes */
+  src: url("http://sturgeonmoon2018.com/fonts/AGaramondPro-BoldItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://sturgeonmoon2018.com/fonts/AGaramondPro-BoldItalic.otf") format("opentype"), /* Open Type Font */
+    url("http://sturgeonmoon2018.com/fonts/AGaramondPro-BoldItalic.svg") format("svg"), /* Legacy iOS */
+    url("http://sturgeonmoon2018.com/fonts/AGaramondPro-BoldItalic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("http://sturgeonmoon2018.com/fonts/AGaramondPro-BoldItalic.woff") format("woff"), /* Modern Browsers */
+    url("http://sturgeonmoon2018.com/fonts/AGaramondPro-BoldItalic.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
