@@ -61,7 +61,7 @@
 p {
     color: white;
     font-family: 'Adobe Garamond Pro';
-    font-size: 18px;
+    font-size: 16px;
     font-style: italic;
     font-variant: normal;
     font-weight: 400;
@@ -116,6 +116,8 @@ table {
 	margin:0 auto;
 	width: 850px;
 	height: 637px;
+	position: relative;
+	top: -20px;
 }
 
 /* Hiding video controls
