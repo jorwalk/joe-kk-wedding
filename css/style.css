@@ -1,16 +1,16 @@
 @font-face {
-    font-family: 'Adobe Garamond Pro';
-    src: url('http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.eot');
-    src: url('http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.eot?#iefix') format('embedded-opentype'),
-        url('http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.woff2') format('woff2'),
-        url('http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.woff') format('woff'),
-        url('http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.ttf') format('truetype'),
-        url('http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.svg#AGaramondPro-Italic') format('svg');
-    font-weight: normal;
-    font-style: italic;
+  font-family: "AGaramondPro-Italic";
+  src: url("http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.eot"); /* IE9 Compat Modes */
+  src: url("http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.otf") format("opentype"), /* Open Type Font */
+    url("http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.svg") format("svg"), /* Legacy iOS */
+    url("http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.woff") format("woff"), /* Modern Browsers */
+    url("http://sturgeonmoon2018.com/fonts/AGaramondPro-Italic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
 }
 
-/* font converted using font-converter.net. thank you! */
 @font-face {
   font-family: "AGaramondPro-BoldItalic";
   src: url("http://sturgeonmoon2018.com/fonts/AGaramondPro-BoldItalic.eot"); /* IE9 Compat Modes */
@@ -37,6 +37,9 @@
 .layer.icon {
   top: 90%;
 }
+.layer.icon a{
+  text-decoration: none;
+}
 .lnr.lnr-arrow-down {
 	color: white;
 	font-size: 30px;
@@ -60,11 +63,8 @@
 
 p {
     color: white;
-    font-family: 'Adobe Garamond Pro';
-    font-size: 16px;
-    font-style: italic;
-    font-variant: normal;
-    font-weight: 400;
+    font-family: "AGaramondPro-Italic";
+    font-size: 20px;
     line-height: 24px;
 }
 
@@ -93,10 +93,16 @@ table {
 }
 
 #myVideo {
-    height: 70%;
-    z-index: 3;
+  height: 70%;
+  z-index: 3;
 }
 
+.fp-tableCell {
+  border: 1px solid #37392c;
+}
+.fp-section.fp-table, .fp-slide.fp-table {
+  border: 1px solid #37392c;
+}
 
 /* Layer with position absolute in order to have it over the video
 	* --------------------------------------- */
