@@ -32,6 +32,10 @@
   overflow: hidden;
 }
 
+#section0 {
+  overflow: hidden;
+}
+
 /* Layer Icon centering
 	* --------------------------------------- */
 .layer.icon {
