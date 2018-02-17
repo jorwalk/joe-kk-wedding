@@ -62,7 +62,7 @@
 #accommodations {
 	margin: 0 auto;
 	position: relative;
-	width: 80%;
+	width: 50%;
 }
 
 p {
@@ -128,7 +128,7 @@ table {
 }
 
 .contact-container{
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
   display: block;
 }
